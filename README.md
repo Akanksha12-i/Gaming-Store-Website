@@ -6,10 +6,7 @@
 </ul>
 
 ## Here is the Screen-recording video for the Gaming Store Website:
-https://drive.google.com/file/d/1uNJ0jXB3-hGFliToNNUU7j8t_sPoWxtf/view?usp=sharing
-<video autoplay loop muted>
-  <source src="https://drive.google.com/file/d/1uNJ0jXB3-hGFliToNNUU7j8t_sPoWxtf/view?usp=sharing" type="video/mp4">
-</video>
+(https://drive.google.com/file/d/1qsPDe51Q46uu0Jy7oQHanR3cXZrJzZD-/view?usp=sharing)
 
 ## Steps to install the project:
    ### Install basic Software:
