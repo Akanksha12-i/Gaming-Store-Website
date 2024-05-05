@@ -6,8 +6,9 @@
 </ul>
 
 ## Here is the video for the Gaming Store Website
+https://drive.google.com/file/d/1uNJ0jXB3-hGFliToNNUU7j8t_sPoWxtf/view?usp=sharing
 
-   ## Steps to install the project:
+## Steps to install the project:
   
    ### Install basic Software:
    * Install NodeJS
