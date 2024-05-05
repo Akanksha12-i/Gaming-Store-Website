@@ -1,0 +1,43 @@
+<%- include('partials/header')%>
+<link rel="stylesheet" href="css/styleCart.css">
+</head>
+<body>
+
+    
+
+        <div class="row" id="nav">
+            <h3 id="sidename">Your Cart<ion-icon name="cart"></ion-icon></h3>
+            <nav>
+
+                <ul class="mainnav">
+                    <li><a href="/" role="button">Home</a></li>
+                   
+                   <li><a href="/" role="button">Logout</a></li>
+                  
+                </ul>
+            </nav>
+        </div>
+        <div id="shop" data-aos="slide-down" data-duration="3000">
+     <div class="col">
+      <img src="<%=foundItems.imagePath %>">
+     </div>
+     <div class="col">
+        <h3 class="fnt"><%=foundItems.title %></h3>
+        </div>
+        <div class="col">
+        <h3 class="fnt">Rs.<%=foundItems.price %></h3>
+        </div>
+        <div class="col">
+            <button class="btn1" id="pn">Pay Now</button>
+           </div>
+        </div>
+
+      
+        <script>
+            btn=document.getElementById('pn');
+            btn.onclick=()=>{
+                alert("Payment Done Successfully.");
+            };
+        </script>
+
+        <%- include('partials/footer')%>

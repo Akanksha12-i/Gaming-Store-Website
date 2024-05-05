@@ -1,0 +1,191 @@
+<%- include('partials/header')%>
+<link rel="stylesheet" href="css/styleUser.css">
+</head>
+<body>
+
+        <header>
+
+            <div class="row" id="nav">
+                <h3 id="sidename"><%=foundUser.name%></h3>
+                <nav>
+    
+                    <ul class="mainnav">
+                        <li><a href="/" role="button"><ion-icon name="home"></ion-icon>Home</a></li>
+                    <li><a href="#order" role="button"><ion-icon name="cart"></ion-icon>Order</a></li>
+                   <li><a href="/" role="button">Logout</a></li>
+                    </ul>
+    
+                </nav>
+            </div>
+    
+            <video autoplay muted loop id="myVideo">
+                <source src="video/v2.mp4" type="video/mp4">
+              </video>
+
+            <div class="welcome">
+
+                <h1 class="font-effect-emboss grace">Hello <%=foundUser.name%> :)
+                </h1>
+                <h3 class="font-effect-emboss"><i>Video Games Shop's here!! SHOP NOW</i></h3>
+                <a class="btn btn1" href="#store">Gaming Store</a>
+            </div>
+        </header>
+
+        <section id="store" data-aos="fade-in" data-aos-duration="2000">
+            <div class="row cards">
+                <h2 class="st">VG_ZONE STORE</h2>
+    
+                <div class="card" style="width: 18rem;">
+                    <img src="img/eotb2.jpg" class="card-img-top" alt="video game">
+                    <div class="card-body">
+                        <h5 class="card-title">Eye of Beholder 2</h5>
+                        <p class="card-text">The Eye of the Beholder trilogy is a series of role-playing video games for
+                            computers and video game consoles developed by Westwood Associates.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item price">Rs.300/-</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#order" class="card-link">Add Item</a>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="card" style="width: 18rem;">
+                    <img src="img/call.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Call of Duty</h5>
+                        <p class="card-text">Crime thriller series games.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item price">Rs.350/-</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#order" class="card-link">Add Item</a>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="card" style="width: 18rem;">
+                    <img src="img/castlefall.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Castel Fall</h5>
+                        <p class="card-text">Castle Fall includes the series of games in order to save the castle of Dholakpur.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item price">Rs.200/-</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#order" class="card-link">Add Item</a>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Darkness.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Darkness And Flame</h5>
+                        <p class="card-text">Mysterious and Adventurous Series of Darkness And Flame will lead the winner to have the hidden treasure.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item price">Rs.900/-</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#order" class="card-link">Add Item</a>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="card" style="width: 18rem;">
+                    <img src="img/dark-souls.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dark Souls 2</h5>
+                        <p class="card-text">Leading the first season of Dark Souls, Dark Souls 2 is ready to give more thrill and attacks too.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item price">Rs.1150/-</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#order" class="card-link">Add Item</a>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="card" style="width: 18rem;">
+                    <img src="img/goldNblood.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gold N Blood</h5>
+                        <p class="card-text">Gold N Blood will provide the series of games to go on gold hunting venture with friends.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item price">Rs.300/-</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#order" class="card-link">Add Item</a>
+                    </div>
+                </div>
+    
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Hellwomb.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hellwomb</h5>
+                        <p class="card-text">Hellwomb includes a series of horror games in order to escape the palace Hellwomb.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item price">Rs.800/-</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#order" class="card-link">Add Item</a>
+                    </div>
+                </div>
+    
+            </div>
+    
+    
+        </section>
+
+        <section id="order">
+            <div class="box" id="head" data-aos="slide-right" data-aos-duration="2000">
+                <h2 class="ornow">ORDER NOW</h2>
+            </div>
+            <div class="box" data-aos="slide-left" data-aos-duration="2000">
+              
+                <form action="/user" method="POST" >
+                    <label for="title" class="plor">Title of Game</label>
+                    <input type="title" name="ele1" placeholder="Enter the title of game">
+                    <button type="submit">Add To Cart</button>
+                </form>
+            </div>
+            </section>
+       
+            <footer>
+                <div class="row">
+                    <div class="col">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">IOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                    </div>
+                    <div class="col">
+                        <ul class="social-links">
+                            <li><a href=#><ion-icon class="meta" name="infinite-outline"></ion-icon></a></li>
+                            <li><a href=#><ion-icon class="twitter" name="logo-twitter"></ion-icon></a></li>
+                            <li><a href=#><ion-icon class="insta" name="logo-instagram"></ion-icon></a></li>
+                            <li><a href=#><ion-icon class="google" name="logo-google"></ion-icon></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                   <p> Copyright &copy; 2024 by Akanksha Sinha. All right are reserved.</p>
+                </div>
+            </footer>
+   
+        <%- include('partials/footer') %>
